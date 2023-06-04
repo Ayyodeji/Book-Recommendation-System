@@ -119,7 +119,7 @@ def display_book_recommender():
 
     if st.button('Show Recommendation'):
         recommended_books, poster_url = recommend_book(selected_books)
-        col1, col2, col3, col4, col5 = st.columns(5)
+        col1, col2, col3, col4, col5 = st.columns(2)
         with col1:
             st.text(recommended_books[1])
             st.image(poster_url[1])
