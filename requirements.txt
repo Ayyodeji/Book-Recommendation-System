@@ -2,6 +2,6 @@
 streamlit
 numpy
 scikit-learn
-pandas
+pandas<2.0.0
 ### local packages -
 -e . 
