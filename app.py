@@ -40,7 +40,7 @@ st.markdown(
 # Home Page
 def display_home():
     st.title('Book Recommender System')
-    st.write('Welcome to the Book Recommender System app!')
+    st.write('Welcome to the Book Recommendation System app!')
     st.write('This app utilizes a machine learning model to recommend books based on user preferences.')
     st.write('You can select a book from the dropdown menu and click "Show Recommendation" to get personalized book recommendations.')
     st.write('Additionally, you can navigate to the Top 50 Books page to view the top 50 books based on their ratings.')
@@ -79,7 +79,7 @@ def display_html():
 
 # Book Recommender System Page
 def display_book_recommender():
-    st.header('Machine Learning Book Recommender System')
+    st.header('Machine Learning Book Recommendation System')
 
     def fetch_poster(suggestion):
         book_name = []
