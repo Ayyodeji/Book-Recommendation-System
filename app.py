@@ -39,7 +39,7 @@ st.markdown(
 
 # Home Page
 def display_home():
-    st.title('Book Recommender System')
+    st.title('Book Recommender')
     st.write('Welcome to the Book Recommendation System app!')
     st.write('This app utilizes a machine learning model to recommend books based on user preferences.')
     st.write('You can select a book from the dropdown menu and click "Show Recommendation" to get personalized book recommendations.')
